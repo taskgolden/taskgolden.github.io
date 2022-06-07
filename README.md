@@ -1,2 +1,2 @@
 # taskgolden.github.io
-pages test
+<https://taskgolden.github.io>
