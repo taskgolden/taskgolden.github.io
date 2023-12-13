@@ -4,20 +4,23 @@
         <title>在线模拟器范例：魂斗罗铁血兵团</title>
     </head>
 <body>
-    <div style='width:1024px;height:768px;max-width:100%'>
+    <div style='width:800px;height:600px;max-width:100%'>
         <div id='game'></div>
     </div>
     <script type='text/javascript'>
         EJS_player = '#game';
+
+        // Can also be genesis_plus_gx or picodrive
         EJS_core = 'segaMD';
+        
         // URL to Game rom
         EJS_gameUrl = 'rom_md/Contra_The_Hard_Corps_CH.bin';
         /*
          *  Path to the WASM / JS files
          *  HAS TO BE in the same directory.
          */
-        EJS_pathtodata = 'data/';
+        EJS_pathtodata = '/emulatorjs/data/';
     </script>
-    <script src='data/loader.js'></script>
+    <script src='/emulatorjs/data/loader.js'></script>
 </body>
 </html>
