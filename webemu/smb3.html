@@ -4,28 +4,29 @@
         <title>在线模拟器范例：超级马里奥3</title>    
     </head>
 <body>
-    <div style='width:1024px;height:768px;max-width:100%'>
+    <div style='width:800px;height:600px;max-width:100%'>
         <div id='game'></div>
     </div>
     <script type='text/javascript'>
         EJS_player = '#game';
+
+        // Can also be fceumm or nestopia
         EJS_core = 'nes';
+
         // Lightgun
         EJS_lightgun = false;
+
         // URL to Famicom Disk System bios
         EJS_biosUrl = '';
+
         // URL to Game rom
         EJS_gameUrl = 'rom_fc/Super_Mario_Bros_3_E.nes';
-        /*
-         *  Path to the WASM / JS files
-         *  HAS TO BE in the same directory.
-         */
-        EJS_pathtodata = 'EmulatorJS-main/data/';
+
+        // Path to the data directory
+        EJS_pathtodata = '/emulatorjs/data/';
     </script>
-    <script src='EmulatorJS-main/data/loader.js'></script>
-    <br>
+    <script src='/emulatorjs/data/loader.js'></script>
     <p><a href="smb3_nestopia.html" target="_blank">超级马里奥3 nestopia core</a></p>
     <p><a href="smb3_old_core.html" target="_blank">超级马里奥3 old core</a></p>
-    <br>
 </body>
 </html>
