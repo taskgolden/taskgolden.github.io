@@ -4,8 +4,8 @@ game (
 	rom ( name "Super Mario Bros. 3 (USA) (Rev 1).nes" size 393232 crc e8c3af69 md5 e883e0d43448d9fdd8ce626f75fe4e5d sha1 a25d2dcbf6ec3634a84318bfe2cfe28d5331d815 )
 )
 
-PS C:\Users\zerge\Downloads\Super Mario Bros. 3 (USA) (Rev 1)> CertUtil -hashfile .\Super_Mario_Bros._3_USA_Rev_1.nes md5
-MD5 的 .\Super_Mario_Bros._3_USA_Rev_1.nes 哈希:
+> CertUtil -hashfile .\Super_Mario_Bros_3_USA_Rev_1.nes md5
+MD5 的 .\Super_Mario_Bros_3_USA_Rev_1.nes 哈希:
 e883e0d43448d9fdd8ce626f75fe4e5d
 CertUtil: -hashfile 命令成功完成。
-PS C:\Users\zerge\Downloads\Super Mario Bros. 3 (USA) (Rev 1)>
+>
