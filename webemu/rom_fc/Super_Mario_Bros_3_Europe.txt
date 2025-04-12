@@ -1,0 +1,11 @@
+game (
+	name "Super Mario Bros. 3 (Europe)"
+	description "Super Mario Bros. 3 (Europe)"
+	rom ( name "Super Mario Bros. 3 (Europe).nes" size 393232 crc 277b3544 md5 25061285ac297bf0a4d732f6d6983337 sha1 1ad8c4e29bb91874415730b815dff0aa88f18ed7 )
+)
+
+> CertUtil -hashfile 'Super_Mario_Bros_3_Europe.nes' md5
+MD5 的 Super_Mario_Bros_3_Europe.nes 哈希:
+25061285ac297bf0a4d732f6d6983337
+CertUtil: -hashfile 命令成功完成。
+>
