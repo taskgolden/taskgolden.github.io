@@ -1,0 +1,51 @@
+photoy2k.zip - 这个photoy2k是fbneo专用，zip文件不能改名否则识别不出
+
+https://raw.githubusercontent.com/libretro/libretro-database/refs/heads/master/metadat/fbneo-split/FinalBurn%20Neo%20(ClrMame%20Pro%20XML%2C%20Arcade%20only).dat
+
+<game name="photoy2k" romof="pgm">
+		<description>Photo Y2K / Real and Fake (V105, China)</description>
+		<year>1999</year>
+		<manufacturer>IGS</manufacturer>
+		<rom name="pgm_p0701_v105.u2" size="2097152" crc="fab142e0"/>
+		<rom name="pgm_t0700.u11" size="524288" crc="93943b4d"/>
+		<rom name="pgm_a0700.u2" size="8388608" crc="503c855b"/>
+		<rom name="pgm_a0701.u4" size="8388608" crc="845e11a8"/>
+		<rom name="pgm_a0702.u3" size="524288" crc="42239e1b"/>
+		<rom name="pgm_b0700.u7" size="8388608" crc="8cd027f6"/>
+		<rom name="photo_y2k_cg_v101_u6.u6" size="131072" crc="da02ec3e"/>
+		<rom name="pgm_m0700.u5" size="524288" crc="acc7afce"/>
+		<rom name="igs027a_photoy2k_v100_china.asic" size="16384" crc="1a0b68f6"/>
+		<rom name="pgm_t01s.rom" merge="pgm_t01s.rom" size="2097152" crc="1a7123a0"/>
+		<rom name="pgm_m01s.rom" merge="pgm_m01s.rom" size="2097152" crc="45ae7159"/>
+		<rom name="pgm_p01s.u20" merge="pgm_p01s.u20" size="131072" crc="e42b166e"/>
+		<rom name="pgm_p02s.u20" merge="pgm_p02s.u20" size="131072" crc="78c15fa2"/>
+		<rom name="ddp3_bios.u37" merge="ddp3_bios.u37" size="524288" crc="b3cc5c8f"/>
+		<rom name="bios.u42" merge="bios.u42" size="131072" crc="517cf7a2"/>
+		<video orientation="horizontal" width="448" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+
+https://archive.org/details/2020_01_06_fbn
+https://www.planetemu.net/rom/fb-alpha/pgm-2
+https://www.planetemu.net/rom/finalburn-neo-arcade-games/photoy2k
+
+bios.u42 merge=bios.u42 size=131072 crc=517cf7a2
+ddp3_bios.u37 merge=ddp3_bios.u37 size=524288 crc=b3cc5c8f
+igs027a_photoy2k_v100_china.asic size=16384 crc=1a0b68f6
+pgm_a0700.u2 size=8388608 crc=503c855b
+pgm_a0701.u4 size=8388608 crc=845e11a8
+pgm_a0702.u3 size=524288 crc=42239e1b
+pgm_b0700.u7 size=8388608 crc=8cd027f6
+pgm_m01s.rom size=2097152 crc=45ae7159
+pgm_m0700.u5 size=524288 crc=acc7afce
+pgm_p01s.u20 size=131072 crc=e42b166e
+pgm_p02s.u20 size=131072 crc=78c15fa2
+pgm_p0701_v105.u2 size=2097152 crc=fab142e0
+pgm_t01s.rom size=2097152 crc=1a7123a0
+pgm_t0700.u11 size=524288 crc=93943b4d
+photo_y2k_cg_v101_u6.u6 size=131072 crc=da02ec3e
+
+
+
+
+
