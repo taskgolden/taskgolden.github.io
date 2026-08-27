@@ -12,7 +12,7 @@
     </head>
 <body>
     <p><font size=7>IGS 《Photo Y2K / 大家来找茬》<br>点击下方按钮开始运行</font></p>
-    <div style="width:448px;height:336px;max-width:100%">
+    <div style="width:640px;height:480px;max-width:100%">
         <div id='game'></div>
     </div>
     <script type='text/javascript'>
@@ -35,9 +35,9 @@
         // EJS_startOnLoaded 和 EJS_fullscreenOnLoaded 一起使用效果不佳
 
         // https://emulatorjs.org/docs/options shader
-        // EJS_defaultOptions = {
-        //   'shader':'crt-easymode.glslp'
-        // }
+        EJS_defaultOptions = {
+          'shader':'crt-easymode.glslp'
+        }
     </script>
     <script src='/emulatorjs/data/loader.js'></script>
     <p>默认按键：上↑下↓左←右→ 确定x 放大镜z 沙漏s 开始Enter 投币v</p>
